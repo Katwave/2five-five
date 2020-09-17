@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>2Five-Five</title>
+
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./KATSS/css/style.css" />
+    <link rel="stylesheet" href="./KATSS/css/styleRules.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="wrapper">
+        <div class="navHam">
+          <h1 style="font-size: 3em">2Five-Five</h1>
+        </div>
+        <div class="appComponents">
+          <div class="time">
+            <h1 id="time">
+              <span id="minutes">0</span> : <span id="seconds">0</span>
+            </h1>
+          </div>
+          <div class="btns">
+            <button class="BTN BTN-widow" id="start">Start</button><br /><br />
+            <button class="BTN BTN-widow" id="stop">Stop</button>
+          </div>
+          <div class="setTime">
+            <input
+              class="INPT INPT-widow"
+              type="text"
+              id="textBox"
+              placeholder="Enter 25 or 5..."
+              value=""
+            />
+            <br /><br />
+            <h1 id="timerValue"></h1>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="./script/script.js"></script>
+  </body>
+</html>
